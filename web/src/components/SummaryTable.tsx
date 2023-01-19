@@ -1,9 +1,9 @@
-import { generateDatesFromYearBeginning } from "../utils/generate-dates-from-year-beginning";
+import { generateRangeBetweenDates } from "../utils/generate-range-between-dates";
 import { HabitDay } from "./HabitDay";
 
 const weekDays = ["D", "S", "T", "Q", "Q", "S", "S"];
 
-const summaryDates = generateDatesFromYearBeginning();
+const summaryDates = generateRangeBetweenDates();
 
 const minimumSummaryDatesSize = 18 * 7;
 const amountOfDaysToFill = minimumSummaryDatesSize - summaryDates.length;

@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
 
-export function generateDatesFromYearBeginning() {
+export function generateRangeBetweenDates() {
   const firstDayOfTheYear = dayjs().startOf("year");
   const today = new Date();
 
