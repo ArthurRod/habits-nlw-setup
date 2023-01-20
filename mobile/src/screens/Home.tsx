@@ -32,7 +32,7 @@ export function Home() {
 
       <ScrollView
         showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ paddingBottom: 100 }}
+        contentContainerStyle={{ paddingBottom: 50 }}
       >
         <View className="flex-row flex-wrap">
           {datesFromYearStart.map((date) => (

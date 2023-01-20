@@ -36,11 +36,14 @@ export function New() {
   }
 
   return (
-    <View className="flex-1 bg-background px-8 pt-16">
-      <ScrollView showsVerticalScrollIndicator={false}>
-        <BackButton />
-
-        <Text className="mt-6 text-white font-extrabold text-3xl">
+    <View className="flex-1 bg-background px-8 pt-8">
+      <BackButton />
+      
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={{ paddingBottom: 50 }}
+      >
+        <Text className="mt-3 text-white font-extrabold text-3xl">
           Criar hábito
         </Text>
 

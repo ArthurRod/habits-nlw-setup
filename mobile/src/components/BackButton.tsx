@@ -6,7 +6,7 @@ import { useNavigation } from "@react-navigation/native";
 export function BackButton() {
   const { goBack } = useNavigation();
   return (
-    <TouchableOpacity activeOpacity={0.7} onPress={goBack}>
+    <TouchableOpacity activeOpacity={0.7} onPress={goBack} className="pb-3">
       <Feather name="arrow-left" size={32} color={colors.zinc[400]} />
     </TouchableOpacity>
   );
